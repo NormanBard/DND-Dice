@@ -1,0 +1,32 @@
+h2,
+h1 {
+    text-align: center;
+}
+
+.playGround {
+    display: flex;
+
+
+}
+
+button {
+    font-size: 20px;
+    align-self: flex-start;
+    margin: 10px;
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.resultsContainer {
+    display: flex;
+    align-self: flex-start;
+    display: table-column;
+    margin: 10px;
+
+}
