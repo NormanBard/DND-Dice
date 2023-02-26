@@ -31,8 +31,9 @@ button {
     display: flex;
     align-self: flex-start;
     display: table-column;
-    margin: 20px;
-    justify-content: space-around;
+    margin: 1px;
+    justify-content: space-between;
+    margin: 1px
 
 }
 
