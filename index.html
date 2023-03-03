@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Sacramento&display=swap" rel="stylesheet">
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
@@ -17,27 +20,34 @@
     <h1>Gloob Dice</h1>
     <h2>Delicious and perfectly spiced</h2>
 
-    <div class="playGround">
-        <div class="buttonContainer">
-            <button type="button" id="d20">d20</button>
-            <button type="button" id="d12">d12</button>
-            <button type="button" id="d10">d10</button>
-            <button type="button" id="d8">d8</button>
-            <button type="button" id="d6">d6</button>
-            <button type="button" id="d4">d4</button>
+  <div class="playGround">
+        <div class="diceContainer">
+            <div class="die">
+                <button type="button" id="d20">d20</button>
+                <div class="results" id="d20results">0</div>
+            </div>
+            <div class="die">
+                <button type="button" id="d12">d12</button>
+                <div class="results" id="d12results">0</div>
+            </div>
+            <div class="die">
+                <button type="button" id="d10">d10</button>
+                <div class="results" id="d10results">0</div>
+            </div>
+            <div class="die">
+                <button type="button" id="d8">d8</button>
+                <div class="results" id="d8results">0</div>
+            </div>
+            <div class="die">
+                <button type="button" id="d6">d6</button>
+                <div class="results" id="d6results">0</div>
+            </div>
+            <div class="die">
+                <button type="button" id="d4">d4</button>
+                <div class="results" id="d4results">0</div>
+            </div>
         </div>
-        <div class="resultsContainer">
-            <div class="results" id="d20results">0</div>
-            <div class="results" id="d12results">0</div>
-            <div class="results" id="d10results">0</div>
-            <div class="results" id="d8results">0</div>
-            <div class="results" id="d6results">0</div>
-            <div class="results" id="d4results">0</div>
-        </div>
-
     </div>
-    </div>
-
 </body>
 
 </html>
