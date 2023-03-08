@@ -78,3 +78,10 @@ button:active {
     align-items: center;
 }
 
+#insultDiv{
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+    margin: 30px;
+    
+}
