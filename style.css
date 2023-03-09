@@ -1,7 +1,7 @@
 h2,
 h1 {
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'MedievalSharp', cursive;
     }
 
 .playGround {
@@ -21,12 +21,14 @@ button {
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #fff;
+    color: #4e4e4e;
     background-color: #4CAF50;
-    border: none;
+    border: none; 
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    font-family: 'Poiret One', cursive;
+    /*font-family: 'Poiret One', cursive;*/
+    font-family: 'MedievalSharp', cursive;;
+    
     }
 
 button:hover {
@@ -83,5 +85,15 @@ button:active {
     font-family: 'Poiret One', cursive;
     font-weight:bold;
     margin: 30px;
-    
+
+}
+
+.insultDivArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.insultDiv{
+    align-self: self-end;
 }
