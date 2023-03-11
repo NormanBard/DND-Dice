@@ -21,13 +21,13 @@ button {
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #4e4e4e;
+    color: #ffffff;
     background-color: #4CAF50;
     border: none; 
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    /*font-family: 'Poiret One', cursive;*/
-    font-family: 'MedievalSharp', cursive;;
+    font-family: 'Poiret One', cursive;
+    /*font-family: 'MedievalSharp', cursive;*/
     
     }
 
